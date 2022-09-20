@@ -429,6 +429,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   loginField: {fileID: 1231957363}
   passwordField: {fileID: 245191054}
+  panelAuthoriz: {fileID: 1927029261}
 --- !u!1 &245191053
 GameObject:
   m_ObjectHideFlags: 0
@@ -466,7 +467,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -150}
+  m_AnchoredPosition: {x: 1629, y: -883}
   m_SizeDelta: {x: 243.06, y: 36.28}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &245191055
@@ -663,7 +664,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u0410\u0412\u0422\u041E\u0420\u0418\u0417\u0418\u0420\u041E\u0412\u0410\u0422\u042C\u0421\u042F"
+  m_text: "\u0417\u0410\u0420\u0415\u0413\u0415\u0421\u0422\u0420\u0418\u0420\u041E\u0412\u0410\u0422\u042C\u0421\u042F"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -909,7 +910,7 @@ GameObject:
   - component: {fileID: 974313496}
   - component: {fileID: 974313495}
   m_Layer: 5
-  m_Name: btnAuthoz
+  m_Name: "btn\u043ARegister"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -933,7 +934,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.88, y: -1655.0022}
+  m_AnchoredPosition: {x: -0.88, y: -2435}
   m_SizeDelta: {x: 338.28, y: 43.57}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &974313495
@@ -1344,7 +1345,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 9, y: -1456}
+  m_AnchoredPosition: {x: 9, y: -2235.9978}
   m_SizeDelta: {x: 1023.49, y: 117.25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1081689007
@@ -1380,7 +1381,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u0423\u0416\u0415 \u0415\u0421\u0422\u042C \u0410\u041A\u041A\u0410\u0423\u041D\u0422?"
+  m_Text: "\u041D\u0415\u0422 \u0410\u041A\u041A\u0410\u0423\u041D\u0422\u0410?"
 --- !u!222 &1081689008
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1426,7 +1427,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 150}
+  m_AnchoredPosition: {x: -1621, y: -583}
   m_SizeDelta: {x: 243.06, y: 36.28}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1231957364
@@ -1795,18 +1796,18 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 4beb055f07aaff244873dec698d0363e, type: 3}
-    m_FontSize: 185
+    m_FontSize: 177
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 278
-    m_Alignment: 1
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u0420\u0415\u0413\u0418\u0421\u0422\u0420\u0410\u0426\u0418\u042F"
+  m_Text: "\u0410\u0412\u0422\u041E\u0420\u0418\u0417\u0410\u0426\u0418\u042F"
 --- !u!222 &1632086611
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1957,7 +1958,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u0417\u0410\u0420\u0415\u0413\u0415\u0421\u0422\u0420\u0418\u0420\u041E\u0412\u0410\u0422\u042C\u0421\u042F"
+  m_text: "\u0410\u0412\u0422\u041E\u0420\u0418\u0417\u0418\u0420\u041E\u0412\u0410\u0422\u042C\u0421\u042F"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2191,7 +2192,7 @@ GameObject:
   - component: {fileID: 1815454563}
   - component: {fileID: 1815454562}
   m_Layer: 5
-  m_Name: btnRegister
+  m_Name: btnAuthoriz
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2215,7 +2216,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.88, y: -506}
+  m_AnchoredPosition: {x: -0.88, y: -1239}
   m_SizeDelta: {x: 338.28, y: 43.57}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1815454562
@@ -2261,7 +2262,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1815454563}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 194812932}
+        m_TargetAssemblyTypeName: MainMenuControl, Assembly-CSharp
+        m_MethodName: Click
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1815454563
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2312,7 +2325,7 @@ GameObject:
   - component: {fileID: 1927029264}
   - component: {fileID: 1927029263}
   m_Layer: 5
-  m_Name: PanelRegister
+  m_Name: PanelAuthoriz
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
