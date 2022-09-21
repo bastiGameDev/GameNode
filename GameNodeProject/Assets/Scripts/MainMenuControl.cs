@@ -17,7 +17,7 @@ public class MainMenuControl : MonoBehaviour
 
     public async void Click()
     {
-        await panelAuthoriz.transform.DOMoveX(-80, 1f).AsyncWaitForCompletion();
+        await panelAuthoriz.transform.DOMoveX(-80, 1f).SetEase(Ease.InOutQuint).AsyncWaitForCompletion();
         
         panelAuthoriz.SetActive(false);
     }
